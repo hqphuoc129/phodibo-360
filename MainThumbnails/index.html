@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style>
+    .overlay {
+      position: absolute;
+      bottom: 0;
+      background: #fad100;
+      /* Black see-through */
+      color: #f1f1f1;
+      width: 100%;
+      opacity: 1;
+      color: white;
+      font-size: 20px;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+
+  <script type="text/javascript">
+    /*Data photos 360*/
+    //label 1
+    src1 = 'https://momento360.com/e/u/978e5c48eeda4ff698fd39522226c7e2?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=100&size=medium'
+    src2 = 'https://momento360.com/e/u/0256c8afb232440593ae3f449f17eddd?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=100&size=medium'
+    //lable 2
+    src3 = 'https://momento360.com/e/u/2fc3ee5aaac146a1b4dc183e9064e021?utm_campaign=embed&utm_source=other&heading=-155.65&pitch=10.69&field-of-view=100&size=medium'
+    src4 = 'https://momento360.com/e/u/f54d9b5c0a834c618c577e29ff0074ae?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=100&size=medium'
+    //label 3
+    src5 = 'https://momento360.com/e/u/20be3948b64a46a2aaa3ce4f1420dd58?utm_campaign=embed&utm_source=other&heading=-117.63&pitch=0.54&field-of-view=100&size=medium'
+    src6 = 'https://momento360.com/e/u/a20453c2caf24f8eb2a8750aa95eae69?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=100&size=medium'
+    //label 4
+    src7 = 'https://momento360.com/e/u/bf83c3d0cb2c44758d4e6dcfd806411f?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=100&size=medium'
+    src8 = 'https://momento360.com/e/u/a3c59c1153c84fe0a7f999790fcd2da3?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=100&size=medium'
+    //label 5
+    src9 = ''
+    src10 = ''
+    //label 6
+    src11 = 'https://momento360.com/e/u/a6879676280a4bec8dce470dd814454a?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=100&size=medium'
+    src12 = 'https://momento360.com/e/u/7997a609ee424af98668ac2c609e1528?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=100&size=medium'
+    //label 7
+    src13 = 'https://momento360.com/e/u/dc47729004e04c428f7836dccee22b2c?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=100&size=medium'
+    src14 = 'https://momento360.com/e/u/d561eb0712f746c6802f47481183f60d?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=100&size=medium'
+    //label 8 
+    src15 = 'https://momento360.com/e/u/94db6400766d481fa0d931f2a4eb5937?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=100&size=medium'
+    src16 = 'https://momento360.com/e/u/605a3b61f76e423eb6f982653b9094cb?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=100&size=medium'
+    //label 9
+    src17 = 'https://momento360.com/e/u/f170872060b0471180f12eb6bbf841a8?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=100&size=medium'
+    src18 = ''
+
+    //title
+    title1 = 'Kết lại con đường hoa năm nay là hình ảnh Thành phố Hồ Chí Minh. Đúng với tên gọi của chương này "Con đường hướng tới tươi lai", trong tinh thần giữ nét truyền thống - hướng tới tương lai, hình ảnh cổng kết mở ra một cuộc sống đô thị hóa và thịnh vượng hơn.', 'Kết lại con đường hoa năm nay là hình ảnh Thành phố Hồ Chí Minh. Đúng với tên gọi của chương này "Con đường hướng tới tươi lai", trong tinh thần giữ nét truyền thống - hướng tới tương lai, hình ảnh cổng kết mở ra một cuộc sống đô thị hóa và thịnh vượng hơn.'
+    title2 = 'Lấy ý tưởng hình ảnh từ nền nông nghiệp Việt: những chú Trâu cần cù, chăm chỉ - hòa cùng với bối cảnh của nền Nông nghiệp công nghệ cao để tái dựng nên một tiểu cảnh "Nông nghiệp CNC" phồn vinh, thịnh vượng ngay giữa lòng thành phố.'
+    title3 = 'Sự kết hợp giữa các vòm tròn tạo nên một không gian thống nhất, nối liền tiểu cảnh này với tiểu cảnh khác. Kiến trúc vòm tròn nối liền tượng trưng cho hào khí dân tộc, sự đoàn kết được lưu truyền từ thế hệ này qua thế hệ khác.'
+    title4 = 'Lấy ý tưởng từ mùa len trâu, một đặc trưng văn hoá của nông thôn Nam bộ. Tiểu cảnh dựng lên trong không gian hài hoà, vừa mang màu sắc hiện đại, vừa vẫn lưu giữ nét truyền thống thân thuộc của làng quê Việt Nam.'
+    title5 = 'Hào khí Việt Nam với hình tượng đàn trâu biểu trưng cho sự phát triển vững trãi, coi trọng giá trị tinh thần và bảo tồn những phẩm chất tốt đẹp của dân tộc. Hình ảnh trâu được tạo hình mang đậm hào khí dân tộc trong thời kỳ mới.'
+    title6 = 'Bức tranh đồng dao với biểu tượng chủ đạo là hoa sen. Trong văn hóa Việt Nam, hoa sen là biểu tượng văn hóa trong tâm thức người Việt. Bức tranh thể hiện nét văn hóa truyền thống của dân tộc nhưng vẫn mang những đường nét cách điệu và hình tượng mới trẻ trung hiện đại.'
+    title7 = 'Dải xuân rực rỡ là sự kết hợp hoàn hảo giữa muôn loài hoa nở rực bên cạnh biểu tượng đàn trâu - hình ảnh tượng trưng cho ước vọng về mùa màng tốt đẹp, ấm no và hạnh phúc. Không gian của tiểu cảnh được thiết kế với kiến trúc vòm tròn tạo cảm giác vừa ấm cúng vừa mới mẻ.	'
+    title8 = 'Tiểu cảnh Mừng Đảng Mừng Xuân như một biểu tượng khái quát mốc son 91 năm thành lập chói lọi của Đảng ta. Trong suốt chiều dài lịch sử từ thành lập, xây dựng cho đến trường thành, Đảng vẫn luôn là ngọn cờ dẫn dắt con đường phát triển của đất nước. Không ngừng vươn xa, không ngừng phát triển. '
+    title9 = 'Cổng mở hiện lên với những mái vòm tái hiện giá trị truyền thống của Xuân dân tộc mà vẫn rực rỡ sắc hoa xuân.'
+
+    content_updating = 'Content updating'
+    //label 
+    label1 = 'BỨC TRANH THÀNH PHỐ THÔNG MINH'
+    label2 = 'NÔNG NGHIỆP CNC'
+    label3 = 'VÒM ĐOÀN KẾT'
+    label4 = 'MÙA LEN TRẨU'
+    label5 = 'HÀO KHÍ VIỆT NAM'
+    label6 = 'BỨC TRANH ĐỒNG DAO'
+    label7 = 'DÃI XUÂN RỰC RỠ'
+    label8 = 'MỪNG ĐẢNG MỪNG XUÂN'
+    label9 = 'AN YÊN XUÂN VỀ'
+
+
+    var clicks = 0;
+    Position = [src1, src2, src3, src4, src5, src6, src7, src8, src9, src10, src11, src12, src13, src14, src15, src16, src16, src17, src18]
+    Title = [title1, title1, title2, title2, title3, title3, title4, title4, title5, title5, title6, title6, title7, title7, title8, title8, content_updating]
+    Label = [label1, label1, label2, label2, label3, label3, label4, label4, label5, label5, label6, label6, label7, label7, label8, label8, label9, label9]
+
+    // 
+    function myHref() {
+      clicks += 1;
+
+      document.getElementById('myAnchor').src = Position[clicks]
+      document.getElementById("myTitle").innerHTML = Title[clicks]
+      document.getElementById('myLabel').innerHTML = Label[clicks]
+      
+      //counter loop
+      if (clicks > 17)
+        clicks = 0
+    }
+
+  </script>
+
+</head>
+
+<body>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <!--- Dai canh buc tranh dong dao-->
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe id="myAnchor" class="embed-responsive-item"
+            src="https://momento360.com/e/u/62c4e218744941f388d4e2d0cc611159?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=100&size=medium"
+            frameborder="0"></iframe>
+          <div class="overlay" id="myLabel">BỨC TRANH THÀNH PHỐ THÔNG MINH</div>
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+          <h5></h5>
+          <p id="myTitle">Kết lại con đường hoa năm nay là hình ảnh Thành phố Hồ Chí Minh. Đúng với tên gọi của chương
+            này "Con đường hướng tới tươi lai", trong tinh thần giữ nét truyền thống - hướng tới tương lai, hình ảnh
+            cổng kết mở ra một cuộc sống đô thị hóa và thịnh vượng hơn.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev" onclick="">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next"
+      onclick="myHref()">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+
+</body>
+
+</html>
