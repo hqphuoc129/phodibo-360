@@ -4,3 +4,6 @@
 
 ## Scene 2
 ![vom lan ruc ro](https://github.com/hqphuoc129/phodibo-360/blob/master/gif/vomlanrucro.gif)
+
+## Scene 3
+![index](https://github.com/hqphuoc129/phodibo-360/blob/master/gif/index.gif)
